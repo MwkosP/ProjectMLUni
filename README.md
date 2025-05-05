@@ -1,8 +1,7 @@
-# ProjectML
-
-##📈 Bitcoin Price Prediction using Machine Learning & Mathematical Models
+# 📈 ProjectML — Bitcoin Price Prediction using Machine Learning & Mathematical Models
 
 A deep-dive into modeling Bitcoin closing prices using classical regression, machine learning, and time series techniques — with **Exponential Fit** emerging as the top performer.
+
 
 ---
 
