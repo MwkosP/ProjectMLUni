@@ -15,7 +15,7 @@ This project aims to predict the closing price of Bitcoin (BTC) using a mix of t
 ## 📊 Dataset
 
 - **Source:** Yahoo Finance  
-- **Time Range:** Daily data over several years  
+- **Time Range:** Weekly data over several years  
 - **Features Used:**
   - Open  
   - High  
