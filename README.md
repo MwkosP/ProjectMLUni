@@ -10,39 +10,40 @@ Source: Yahoo Finance
 Time Range: Daily data over several years
 Features Used:
 Open
-High
-Low
-Volume
+-High
+-Low
+-Volume
 Target Variable: Close price
 
 ⚙️** Preprocessing & Techniques**
-Cleaned and converted volume/market cap formats
-
+Cleaned and converted to weekly chart
 Applied normalization (Min-Max scaling)
-
 Feature selection via correlation analysis
-
-Implemented logarithmic/exponential transformations where applicable
-
 Applied k-Fold Cross-Validation to assess model stability
 
 🧠 **Models & Techniques Used**
-Category	Models/Techniques
-Classical Regression	Linear Regression, Logarithmic Fit, Exponential Fit
-Statistical Smoothing	SMA50 (50-day Simple Moving Average)
-Machine Learning	kNN, Random Forest, Support Vector Regression (SVR)
-Deep Learning	LSTM (Long Short-Term Memory networks)
+Technical Indicators Used for features:
+-Statistical Smoothing	SMA50 (50-day Simple Moving Average),RSI,MACD,Williams %R.
+Models used:
+• Linear Regression
+• Logarithmic Fit
+• Exponential Fit
+• kNN
+• SMA50
+• Random Forest
+• SVR
+• LSTM
 
 **Evaluation Metrics**
-RMSE (Root Mean Square Error)
-MSE (Mean Square Error)
-MAE (Mean Absolute Error)
-MAPE (Mean Absolute Percentage Error)
-R² Score
+-RMSE (Root Mean Square Error)
+-MSE (Mean Squared Error)
+-MAE (Mean Absolute Error)
+-MAPE (Mean Absolute Percentage Error)
+-R² Score
 
 🥇 **Results**
 Model	Best Metric Value	Notes
-Exponential Fit	✅ Lowest errors & highest R²	✅ Best overall performer
+Exponential Fit	✅ Lowest errors & highest R² and RMSE,	✅ Best overall performer
 Linear Regression	Moderate	Baseline model
 Logarithmic Fit	Decent	Slightly underperformed Exp Fit
 kNN	Varies	Sensitive to hyperparameters
@@ -51,8 +52,10 @@ SVR	Fair	Required normalization
 SMA50	Baseline smoothing	Not predictive, used for trend
 LSTM	Experimental	Needs more tuning/data
 
+![image](https://github.com/user-attachments/assets/fd4b55f5-93fb-4bd8-af68-502751bbea03)
+
 **Key Insights**
 Exponential Fit captured BTC price growth trends best, outperforming ML models.
-Classical models can rival or beat black-box models on financial time series with the right transformation.
+Classical models can rival or beat black-box models on financial time series with the right transformation(only on assets like bitcoin with steady exponential Growth).
 Smoothing methods (like SMA) help in understanding trends but are poor predictors alone.
 LSTM had potential but needs much more data and tuning for reliable results.
