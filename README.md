@@ -28,11 +28,7 @@ To enhance model reliability and generalization:
   - High  
   - Low  
   - Volume  
-  - **Technical indicators used for feature selection:**
-    - RSI  
-    - MACD  
-    - OBV  
-    - Williams %R  
+  - **Technical indicators also used for feature selection**
 - **Target Variable:** Close price
 
 ---
