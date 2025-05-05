@@ -20,8 +20,9 @@ This project aims to predict the closing price of Bitcoin (BTC) using a mix of t
   - Open  
   - High  
   - Low  
-  - Volume  
-  - Market Cap  
+  - Volume
+-**Technical Indicators used for feature selection: **
+  -RSI
 - **Target Variable:** Close price
 
 ---
