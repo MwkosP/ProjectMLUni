@@ -102,3 +102,10 @@ To enhance model reliability and generalization:
 
 ---
 
+## 🧑‍💻 Author
+
+Created by **Panagiotis Mokos**  
+GitHub: [@MwkosP](https://github.com/MwkosP)
+
+
+---
