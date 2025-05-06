@@ -90,6 +90,8 @@ To enhance model reliability and generalization:
 | SMA50             | Baseline smoothing            | Not predictive, used for trend only |
 | LSTM              | Experimental                  | Needs more tuning/data              |
 
+![image](https://github.com/user-attachments/assets/c3464d68-fd66-42fa-b58d-bc1e722935b2)
+
 ![image](https://github.com/user-attachments/assets/fd4b55f5-93fb-4bd8-af68-502751bbea03)
 
 ---
