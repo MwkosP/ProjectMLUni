@@ -29,6 +29,7 @@ To enhance model reliability and generalization:
   - Volume  
   - **Technical indicators also used for feature selection**
 - **Target Variable:** Close price
+![image](https://github.com/user-attachments/assets/8cc2550c-8530-47e6-ae18-8baaac9def7e)
 
 ---
 
