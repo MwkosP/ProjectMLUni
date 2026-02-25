@@ -1,11 +1,11 @@
-# 📈 ProjectML — Bitcoin Price Prediction using Machine Learning & Mathematical Models
+# ProjectML — Bitcoin Price Prediction using Machine Learning & Mathematical Models
 
 A deep-dive into modeling Bitcoin closing prices using classical regression, machine learning, and time series techniques — with **Exponential Fit** emerging as the top performer.
 
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project aims to predict the closing price of Bitcoin (BTC) using a mix of traditional regression methods, statistical techniques, and machine learning models. The performance of each model is evaluated using multiple error metrics and **k-Fold cross-validation**.  
 
@@ -18,7 +18,7 @@ To enhance model reliability and generalization:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Yahoo Finance  
 - **Time Range:** Weekly data over several years  
@@ -34,7 +34,7 @@ To enhance model reliability and generalization:
 
 ---
 
-## ⚙️ Preprocessing & Techniques
+## Preprocessing & Techniques
 
 - Cleaned and converted to weekly chart  
 - Applied normalization (Min-Max scaling)  
@@ -45,7 +45,7 @@ To enhance model reliability and generalization:
 
 ---
 
-## 🧠 Models & Techniques Used
+## Models & Techniques Used
 
 **Technical Indicators Used for Features:**
 
@@ -67,7 +67,7 @@ To enhance model reliability and generalization:
 
 ---
 
-## 📏 Evaluation Metrics
+## Evaluation Metrics
 
 - RMSE (Root Mean Square Error)  
 - MSE (Mean Squared Error)  
@@ -77,7 +77,7 @@ To enhance model reliability and generalization:
 
 ---
 
-## 🥇 Results
+## Results
 
 | Model             | Best Metric Value             | Notes                               |
 |------------------|-------------------------------|-------------------------------------|
@@ -96,7 +96,7 @@ To enhance model reliability and generalization:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - Exponential Fit captured BTC price growth trends best, outperforming ML models.  
 - Classical models can rival or beat black-box models on financial time series with the right transformation (especially for assets like Bitcoin with steady exponential growth).  
